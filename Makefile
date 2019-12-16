@@ -1,8 +1,5 @@
 run: build
 	PORT=8080 ./gofeedql
 
-build: 
+build:
 	go build
-
-dev:
-	CompileDaemon -command="make run"
